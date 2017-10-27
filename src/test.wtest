@@ -1,0 +1,15 @@
+import example.*
+import unTercero.*
+describe "Test para return de wollok"
+{
+	var dia = new Date()
+	var fecha = new Ejemplo(dia)
+test "Falta un return e igual comparo con el dia de hoy" 
+	{
+	assert.equals("27", fecha.hoy())
+	}
+test "Utiliza el metodo que falta return, comparo con un dia por parametro"
+	{
+	assert.that(comparar.diaMayorA(15))
+	}
+}
